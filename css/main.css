@@ -1,0 +1,144 @@
+body{
+    width: 100;
+    height: 100;
+    margin: 0 auto;
+}
+ul{
+    padding: 0px!important;/*reset*/
+}
+.menu-principal{
+width: 100%; /*largura do menu principal*/
+background-color:black;/*cor do menu*/
+height: 60px; /*altura */
+}
+main{
+margin: 0 auto;
+width: 980px; /*largura da pagina*/
+position: relative;
+}
+.logo{
+    float: left;
+    padding: 16px; /*posicionamento da logo*/
+    width: 70%;/*assumi esse tamanho*/
+}
+.Redes-sociais ul li{
+    margin-left: 27px;
+    display: inline;
+    float: left;
+    list-style: none;
+}
+.Redes-sociais{
+    width: 25%;
+    float: right;
+}
+.header-2{
+background-color: #ffffff;
+width: 980px;
+margin:0 auto ;
+padding: 16px;
+}
+.menu-urls{
+height: 80px;
+border-bottom: 3px solid #efefef;
+}
+.menu ul li{
+    display: inline-block;/*deixar lado a lado parecendo block*/
+    color: #8b8b8b;
+    margin-left: 15px;/*separar entre  eles deixar um espaço*/
+    height: 50px;
+
+}
+.menu ul li:hover{
+    border-bottom: 3px solid #00bac6;/*linha colorida debaixo dos nomes*/
+}
+.menu ul li a:hover{
+    color: #00bac6 /*efeito de mudar de cor*/
+}
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;/*tamanho da letra*/
+    text-transform: uppercase; /*deixar tudo em letra maiuscula */
+    
+}
+.menu{
+    width: 70%;
+    float: left;
+}
+.busca{
+    width: 27%;
+    float: right;
+   
+   
+}
+.busca input{
+   background-image: url('../img/icone-search.png');
+   background-repeat: no-repeat;
+   background-position: 95%;
+    text-align: center;
+    height: 16px;
+    width: 190px;
+    padding:12px ;
+    border: 1px solid #808080;
+    
+}
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+button.slick-prev{
+   font-size: 0px;
+   border: none; 
+   height: 51px;
+   width: 25px;
+   z-index: 9;
+   background-color: transparent;
+   position: absolute;
+   background-image: url('../img/anterior.png');
+   top: 35%;
+   left: 14%;
+}
+
+button.slick-next{
+    font-size: 0px;
+    border: none; 
+    height: 51px;
+    width: 25px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../img/proximo.png');
+    top: 35%;
+   right: 14%;
+ }
+ .slick-list{
+     width: 100%!important;
+ }
+.slick-initialized{
+    overflow: hidden;
+}
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid #ffffff;
+    width: 26px;
+    height: 26px;
+    background-color: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 420px;
+}
+li.slick-active button {
+ background: #00bac6;
+}
+
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
+}
